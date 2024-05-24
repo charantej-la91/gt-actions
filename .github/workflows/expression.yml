@@ -1,0 +1,9 @@
+name: expressions-testing
+on: [push, workflow_dispatch]
+jobs:
+  runs-on: ubuntu-latest
+  name: first expression
+  steps:
+    - name: git info
+      run: echo "{{ toJSON(github)}}"
+
