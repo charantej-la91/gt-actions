@@ -1,0 +1,10 @@
+name: first-gt-actions
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greetings
+        run: echo "Hi"
+      - name: bye
+        run: echo "Bye"
