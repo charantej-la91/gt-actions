@@ -1,4 +1,5 @@
-name: expression-testing
+#Expression Testing
+name: expressions-testing
 on: [push, workflow_dispatch]
 jobs:
   first-expression:
